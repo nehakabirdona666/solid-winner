@@ -1,0 +1,28 @@
+{
+  "name": "retro-noir-game",
+  "version": "1.0.0",
+  "description": "A retro-style neo-noir detective adventure game.",
+  "main": "src/game.ts",
+  "scripts": {
+    "start": "ts-node src/game.ts",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "pixi.js": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/pixi.js": "^6.0.0"
+  },
+  "keywords": [
+    "game",
+    "retro",
+    "neo-noir",
+    "detective"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
